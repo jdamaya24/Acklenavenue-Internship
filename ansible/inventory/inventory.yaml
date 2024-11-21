@@ -2,8 +2,8 @@
 appservers:
   hosts:
     appserver1:
-      ansible_host: 44.200.203.23
+      ansible_host: "<EC2_INSTANCE_1_PUBLIC_IP>"
       ansible_user: ec2-user
     appserver2:
-      ansible_host: 54.146.134.8
+      ansible_host: "<EC2_INSTANCE_2_PUBLIC_IP>"
       ansible_user: ec2-user
