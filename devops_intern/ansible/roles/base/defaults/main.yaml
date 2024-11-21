@@ -1,7 +1,0 @@
----
-base_packages:
-  - git
-  - rsync
-  - screen
-  - vim-enhanced
-  - wget

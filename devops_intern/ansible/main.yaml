@@ -1,8 +1,0 @@
----
-- hosts: appservers
-  gather_facts: true
-  become: true
-  roles:
-    - { role: base, tags: [ 'base' ] }
-    - { role: app_server, tags: [ 'app' ] }
-    - { role: geerlingguy.nginx, tags: [ 'nginx' ] }

@@ -1,6 +1,0 @@
----
-roles:
-  - name: geerlingguy.nginx
-collections:
-  - community.general
-  - ansible.posix
